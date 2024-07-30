@@ -1,5 +1,4 @@
 {
-  "homepage": "https://josephine324.github.io/SkillLink-App",
   "name": "client",
   "version": "1.0.0",
   "private": true,
@@ -8,20 +7,17 @@
     "dev": "vite",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "build": "vite build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eject": "echo \"Eject not supported\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "dayjs": "^1.11.11",
     "firebase": "^10.12.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.24.1",
-    "gh-pages": "^5.0.0"
+    "react-router-dom": "^6.24.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
